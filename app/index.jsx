@@ -5,7 +5,7 @@ export default function Index() {
     <View
       style={styles.container}
     >
-      <Image source={require('./pomodoro.png')}/>
+      <Image source={require('./pomodoro.png')} />
       <View style={styles.actions}>
         <Text style={styles.timer}>
           25:00
@@ -26,15 +26,15 @@ export default function Index() {
   );
 }
 
-const styles=StyleSheet.create({
-  container:{
+const styles = StyleSheet.create({
+  container: {
     flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: '#021123',
-        gap: 40
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: '#021123',
+    gap: 40
   },
-  actions:{
+  actions: {
     padding: 24,
     backgroundColor: '#14448080',
     borderRadius: 32,
@@ -49,23 +49,23 @@ const styles=StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center'
   },
-  button:{
-    backgroundColor:  '#bb72ff',
+  button: {
+    backgroundColor: '#bb72ff',
     borderRadius: 32,
     padding: 8,
   },
-  buttonText:{
+  buttonText: {
     textAlign: 'center',
     color: '#021123',
     fontSize: 18,
     fontWeight: 25,
   },
-  footer:{
+  footer: {
     width: '80%'
   },
-  footerText:{
+  footerText: {
     textAlign: 'center',
-    color: '#980a8',
+    color: '#0980a8',
     fontSize: 12.5,
   }
 })
